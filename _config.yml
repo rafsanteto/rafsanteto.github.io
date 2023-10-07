@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rafsan's Portfolio"
+title                    : "Rafsan's Website"
 title_separator          : "-"
-name                     : &name "Md. Rafsan Jani"
-description              : &description "personal description"
+name                     : "Md. Rafsan Jani" #&name
+description              : "personal description in config.yml" #&description
 url                      : https://rafsanteto.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rafsanteto/rafsanteto.github.io"
@@ -81,15 +81,16 @@ analytics:
 # Site Author
 author:
   name             : "Md. Rafsan Jani"
-  avatar           : "RJ_PP_2.jpg"
+  avatar           : "RJ_3.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Baltimore, Maryland"
-  employer         : "Morgan State University"
+  employer         : #"Morgan State University"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=O8cFHUgAAAAJ"
   email            : "mdraf1@morgan.edu"
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
+  juurl            : "https://juniv.edu/teachers/rafsan"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -182,12 +183,14 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: false
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
     permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
@@ -227,24 +230,32 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # # _portfolio
-  # - scope:
-  #     path: ""
-  #     type: portfolio
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comment: true
-  # # _talks
-  # - scope:
-  #     path: ""
-  #     type: talks
-  #   values:
-  #     layout: talk
-  #     author_profile: true
-  #     share: true
-
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 # Sass/SCSS
 sass:
   sass_dir: _sass

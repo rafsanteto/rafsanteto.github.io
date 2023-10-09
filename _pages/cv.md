@@ -11,21 +11,33 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science and Engineering, Jahangirnagar University, Bangladesh, 2012
-* M.Sc. in Computer Science and Engineering, Jahangirnagar University, Bangladesh, 2013
-* MS in Advanced Computing, Morgan State University, MD, USA, Spring 2024 (expected)
+<ul class="fa-ul timeline">
+  <li>
+    <i class="fa-li fas fa-graduation-cap"></i> MS in Advanced Computing, Morgan State University, MD, USA, Spring 2024 (expected)
+  </li>
+  <li>
+    <i class="fa-li fas fa-graduation-cap"></i> M.Sc. in Computer Science and Engineering, Jahangirnagar University, Bangladesh, 2013
+  </li>
+  <li>
+    <i class="fa-li fas fa-graduation-cap"></i> B.S. in Computer Science and Engineering, Jahangirnagar University, Bangladesh, 2012
+  </li>
+</ul>
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  <div class="row">
+    <div class="col-md-12">
+      <div id="content">
+        <ul class="timeline-1 text-black">
+          {% for post in site.experience reversed %}
+          <li class="event experience-card" data-date="">
+            {% include archive-single-experience-cv.html %}
+          </li> 
+          {% endfor %}
+        </ul>
+        </div>
+    </div>
+  </div>
 
 Skills
 ======

@@ -337,7 +337,7 @@
 
 .card-header {
   background-color: #f8fafb;;
-  color: #fff;
+  #color: #fff;
   padding: 2px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -371,7 +371,7 @@
 }
 
 .timeline-1 .event {
-  border-bottom: 1px dashed #000;
+  border-bottom: 1px solid #000;
   padding-bottom: 20px;
   margin-bottom: 20px;
   position: relative;

@@ -12,39 +12,87 @@
   {% assign title = post.title %}
 {% endif %}
 
-<!--<div class="{{ include.type | default: 'list' }}__item">-->
-<!--  <article class="archive__item " itemscope itemtype="http://schema.org/CreativeWork">-->
-<!--    <li class="timeline-item experience-card mb-5">-->
+<div class="{{ include.type | default: 'list' }}__item">
+    <div class="archive__item experience-card event" itemscope itemtype="http://schema.org/CreativeWork">
         {% if include.type == "grid" and teaser %}
-          <div class="archive__item-teaser">
+        <div class="archive__item-teaser">
             <img src=
-              {% if teaser contains "://" %}
-                "{{ teaser }}"
-              {% else %}
-                "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-              {% endif %}
-              alt="">
-          </div>
-        {% endif %}
-
-        <h4 class="archive__item-title card-header text-muted mb-3" itemprop="headline">
-          {% if post.link %}
-            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-          {% else %}
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-          {% endif %}
-          {% if post.company%}
-            <p class="archive__item-excerpt" itemprop="description">{{post.type}}{{ post.company }}, {{post.location}}</p>
+                         {% if teaser contains "://" %}
+            "{{ teaser }}"
+            {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
             {% endif %}
-        </h4>
-
-        <p class="card-body text-muted">&nbsp;&nbsp;&nbsp;Date:
-        {% if post.start_date  and post.end_date %}
-          {{ post.start_date | date: '%B %d, %Y' }} – {{ post.end_date | date: '%B %d, %Y' }}
-        {% else %}
-          <i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.start_date | date: '%B %d, %Y' }} – Present
+            alt="">
+        </div>
         {% endif %}
-        </p>
+
+        <div class="card-header text-black text-muted ">
+            <h2 class="archive__item-title" itemprop="headline">
+                {% if post.link %}
+                <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+                {% else %}
+                <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+                {% endif %}
+            </h2>
+            <h3 class="archive__item-excerpt text-bold" itemprop="description">
+                {% if post.company %}{{post.company}}<br>{% endif %}
+                {% if post.location %}{{post.location}}<br>{% endif %}
+            </h3>
+        </div>
+
+        <!--    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}-->
+        <!--    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}-->
+        <!--    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}-->
+        <div class="card-body text-muted">
+            <p></p>
+            <p class="archive__item-excerpt"> &nbsp;&nbsp;&nbsp;Date:
+                {% if post.start_date  and post.end_date %}
+                    {{ post.start_date | date: '%B %d, %Y' }} — {{ post.end_date | date: '%B %d, %Y' }}
+                {% else %}
+                    {{ post.start_date | date: '%B %d, %Y' }} — Present
+                {% endif %}
+            </p>
+            <p></p>
+        </div>
+        <!--    {% if post.company%}<p class="archive__item-excerpt" itemprop="description">{{post.type}} at {{ post.company }},  {{post.location}}</p>{% endif %}-->
+    </div>
+</div>
+
+<!--&lt;!&ndash;<div class="{{ include.type | default: 'list' }}__item">&ndash;&gt;-->
+<!--&lt;!&ndash;  <article class="archive__item " itemscope itemtype="http://schema.org/CreativeWork">&ndash;&gt;-->
+<!--&lt;!&ndash;    <li class="timeline-item experience-card mb-5">&ndash;&gt;-->
+<!--        {% if include.type == "grid" and teaser %}-->
+<!--          <div class="archive__item-teaser">-->
+<!--            <img src=-->
+<!--              {% if teaser contains "://" %}-->
+<!--                "{{ teaser }}"-->
+<!--              {% else %}-->
+<!--                "{{ teaser | prepend: "/images/" | prepend: base_path }}"-->
+<!--              {% endif %}-->
+<!--              alt="">-->
+<!--          </div>-->
+<!--        {% endif %}-->
+
+<!--        <h2 class="archive__item-title card-header text-muted mb-3" itemprop="headline">-->
+<!--          {% if post.link %}-->
+<!--            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>-->
+<!--          {% else %}-->
+<!--            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>-->
+<!--          {% endif %}-->
+<!--          <p class="archive__item-excerpt" itemprop="description">-->
+<!--             {% if post.company%}-->
+<!--              {{ post.company }} <br/> {{post.location}}-->
+<!--            {% endif %}-->
+<!--          </p>-->
+<!--        </h2>-->
+
+<!--        <p class="card-body text-muted">&nbsp;&nbsp;&nbsp;Date:-->
+<!--        {% if post.start_date  and post.end_date %}-->
+<!--          {{ post.start_date | date: '%B %d, %Y' }} — {{ post.end_date | date: '%B %d, %Y' }}-->
+<!--        {% else %}-->
+<!--          {{ post.start_date | date: '%B %d, %Y' }} — Present-->
+<!--        {% endif %}-->
+<!--        </p>-->
 <!--    </li>-->
 <!--  </article>-->
 <!--</div>-->

@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistance"
+title: "Teaching Assistant"
 company: "Institute of Information Technology"
 location: "Jahangirnagar University, Savar, Dhaka-1342"
 collection: experience

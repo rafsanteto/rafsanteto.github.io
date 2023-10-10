@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistance"
+title: "Teaching Assistant"
 company: "Department of Computer Science and Engineering"
 location: "Jahangirnagar University, Savar, Dhaka-1342"
 collection: experience

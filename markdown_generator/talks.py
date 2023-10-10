@@ -33,8 +33,8 @@ import os
 
 # In[3]:
 
-talks = pd.read_csv("talks.tsv", sep="\t", header=0)
-talks
+talks = pd.read_csv("talks.tsv", sep=";", header=0)
+print(talks.head())
 
 
 # ## Escape special characters

@@ -35,7 +35,8 @@ redirect_from:
 * **Frameworks:** TensorFlow, Spring Boot 
 * **Database:** Oracle, MySql 
 * **Version Control System:** Git
-* **IDE:** IntelliJ IDEA, PyCharm, Spyder, NetBeans, CodeBlocks, VS Code
+* **IDE:** IntelliJ IDEA, PyCharm, Spyder, JupyterLab, NetBeans, CodeBlocks, VS Code
+* **Language:** Bangla (Native), English (Proficient)
 
 # Publications
   <ul>{% for post in site.publications reversed %}
@@ -56,6 +57,7 @@ redirect_from:
 ## General 
 * [**Academic Trailblazer Award from Office of Student Life and Development, Morgan State University, May 2023**]({{base_path}}/files/trailblazer-award.pdf)
 * [**IBM Masters Fellowship Award, December 2022**](https://research.ibm.com/university/awards/masters_fellowship_awardees.html#example2-tab2)
+* [**Inst. Decosta Graduate Scholarship, Morgan State University (2022 to 2023)**]()
 * [**Scholarship for Excellent Academic Performance from Jahangirnagar University (2009 to 2012)**]()
 
 ## Competitive Programming Contests (Role: Coach)
@@ -83,10 +85,11 @@ redirect_from:
 * **Joint Secretary** at [Jahangirnagar University Computer Science and Engineering Alumni (JUCSEALUMNI) Association, (January, 2022 to December, 2023)](https://jucsealumni.org/)
 * **General Secretary** at [4th Reunion and Annual General Meeting of JUCSEALUMNI Association Organizing Committee, 2021](https://jucsealumni.org/discussion/147544)
 * **Joint Secretary** at [2nd Reunion and Annual General Meeting of JUCSEALUMNI Association Organizing Committee, 2019](https://jucsealumni.org/discussion/8256)
+* **Assistant Residence Teacher** at Mowlana Bhasani Hall, Jahangirnagar University, Dhaka (September 2018 to August 2020)
 * **Instructor** 
   * [BAPS National Programming Camp-2017, Bangladesh](https://www.youtube.com/@b.a.c.s/playlists) 
   * BAPS National Programming Camp-2016, Bangladesh
-* **Student Advisor and Seminar-in-Charge**, Department of Computer Science and Engineering, Jahangirngar University (December, 2016 to December, 2017)
+* **Student Advisor and Seminar-in-Charge**, Department of Computer Science and Engineering, Jahangirnagar University (December, 2016 to December, 2017)
 * **Organizing Member** at [International Workshop on Computational Intelligence (IWIC), 2016](https://www.facebook.com/profile.php?id=100067175726795)
 * **Coordinator**
   * JU Intra Department Programming Contest Organizing Committee - 2016 to 2021

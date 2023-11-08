@@ -30,9 +30,9 @@ redirect_from:
   </div>
 
 # Skills
-* **Programming Languages:** C/C++, Java, Python, PHP
-* **Client-Side Scripting Language:** HTML, CSS, JavaScript
-* **Frameworks:** TensorFlow, Spring Boot 
+* **Programming Languages:** Python, C/C++, Java, Latex
+* **Web Development:** HTML, CSS, JavaScript, PHP
+* **Frameworks:** TensorFlow, PyTorch, Gradle, Spring Boot, JPA 
 * **Database:** Oracle, MySql 
 * **Version Control System:** Git
 * **IDE:** IntelliJ IDEA, PyCharm, Spyder, JupyterLab, NetBeans, CodeBlocks, VS Code
@@ -41,6 +41,11 @@ redirect_from:
 # Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+# Projects
+  <ul>{% for post in site.projects reversed %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
 # Talks

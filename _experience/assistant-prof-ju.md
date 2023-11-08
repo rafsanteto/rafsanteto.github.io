@@ -7,7 +7,7 @@ permalink: /experience/assistant-professor-ju
 date: 2019-12-19
 start_date: 2019-12-19
 end_date:
-description: Assistant Prof JU description 
+description: Teaching and Research
 ---
 **Courses and Laboratories** 
 * **Data Structures** 

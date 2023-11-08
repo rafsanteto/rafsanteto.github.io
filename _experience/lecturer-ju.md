@@ -7,7 +7,7 @@ permalink: /experience/lecturer-ju
 date: 2016-08-17
 start_date: 2016-08-17
 end_date: 2019-12-18
-description: Lecturer JU description 
+description: Teaching and Research 
 ---
 **Courses and Laboratories**
 * **Data Structures**

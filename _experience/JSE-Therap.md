@@ -7,5 +7,5 @@ permalink: /experience/jse-therap
 date: 2015-07-01
 start_date: 2015-09-01
 end_date: 2016-08-16
-description: Software Engineering, Gradle, Spring, Java
+description: Software Engineering, Gradle, Spring Boot, Java
 ---

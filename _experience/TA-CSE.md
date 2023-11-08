@@ -9,3 +9,6 @@ start_date: 2012-07-01
 end_date: 2015-07-31
 description: Data Structures, Algorithms, Competitive Programming
 ---
+**Responsibilities**
+* Teaching Problem Solving.
+* Traning Competitive Programmers.

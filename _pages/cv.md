@@ -18,7 +18,7 @@ redirect_from:
       <i class="fa-li fas fa-graduation-cap"></i> M.Sc. in Computer Science and Engineering, Jahangirnagar University, Bangladesh, 2013
     </li>
     <li>
-      <i class="fa-li fas fa-graduation-cap"></i> B.S. in Computer Science and Engineering, Jahangirnagar University, Bangladesh, 2012
+      <i class="fa-li fas fa-graduation-cap"></i> B.Sc. in Computer Science and Engineering, Jahangirnagar University, Bangladesh, 2012
     </li>
   </ul>
 

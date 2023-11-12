@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Greetings! I'm Md. Rafsan Jani, and I'm looking for a Ph.D position starting in Fall 2024. I am currently pursuing an MS in Advanced Computing at Morgan State University, which is fully funded. I am also working as a Graduate Research Assistant in the GESTAR division under the supervison of [**Dr. Xiaowen Li**](https://www.morgan.edu/climate-science/faculty-and-staff/xiaowen-li) in collaboration with [**Dr. Md Mahmudur Rahaman**]( https://www.morgan.edu/computer-science/faculty-and-staff/md-rahman)’s [Computer Vision Lab](https://mdrahmanlab.com/) for the past two years.
+Greetings! I'm Md. Rafsan Jani, and I'm looking for a Ph.D position starting in Fall 2024. I am currently pursuing an MS in Advanced Computing at Morgan State University, which is fully funded. I am also working as a Graduate Research Assistant in the GESTAR division under the supervison of [**Dr. Xiaowen Li**](https://www.morgan.edu/climate-science/faculty-and-staff/xiaowen-li) in collaboration with [**Dr. Md Mahmudur Rahaman**]( https://www.morgan.edu/computer-science/faculty-and-staff/md-rahman)’s [Computer Vision Lab](https://mdrahmanlab.com/) since Fall 2022.
 
 In this position, I have been responsible for generating 3D Convective Cloud Updraft Cell Datasets and developing a deep learning model for 3D instance segmentation of the dataset. This work has allowed me to gain valuable experience in working with large datasets, implementing deep learning instance segmentation models, and analyzing complex visual data. Both the dataset and segmentation model papers have been accepted for oral presentation at the 23rd Conference on Artificial Intelligence for Environmental Science, scheduled for January 2024.
 

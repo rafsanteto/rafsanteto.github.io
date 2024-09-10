@@ -17,7 +17,7 @@ Originally, I am from Bangladesh, and I obtained B.Sc. and M.Sc. in Computer Sci
 
 <h2>News:</h2>
 <ul> 
-    <li><strong>[July 2023]</strong> 1 paper accepted in ISBCom-2024.</li>
+    <li><strong>[July 2024]</strong> 1 paper accepted in ISBCom-2024.</li>
      <li><strong>[May 2024]</strong>  Received <i>Academic Trailblazer Award</i> from Morgan State University.</li>
     <li><strong>[December 2023]</strong> 1 paper accepted in HEALTHINF-2024 in <i>poster</i> category.</li>
     <li><strong>[October 2023]</strong>  2 papers accepted in <i>oral</i>   category at 23rd Conference on Artificial Intelligence for Environmental Science.</li>

@@ -2,9 +2,7 @@
 
 source "https://rubygems.org"
 
-gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
-
-gem 'webrick'
+gem 'wdm', '~> 0.2.0', :install_if => Gem.win_platform?
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem 'tzinfo', '>= 1', '< 3'
@@ -12,7 +10,14 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 group :jekyll_plugins do
-  gem 'github-pages'
+  gem 'jekyll'
+  gem 'jekyll-feed'
+  gem 'jekyll-sitemap'
+  gem 'jemoji'
+  gem 'webrick', '~> 1.8'
   gem 'jekyll-octicons'
   gem 'jekyll-livereload'
+  gem 'github-pages'
 end
+
+
